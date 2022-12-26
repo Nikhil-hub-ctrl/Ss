@@ -1,0 +1,6 @@
+list = [10,20,30,40]
+print("The given list : ",list)
+if(len(set(list)) == len(list)):
+   print("list is unique.")
+else:
+   print("list is duplicate")
